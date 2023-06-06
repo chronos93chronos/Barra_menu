@@ -17,7 +17,7 @@ def saludo ():
 
 barra_menu = tk.Menu()
 menu_archivo = tk.Menu(barra_menu, tearoff=False)
-img_menu_nuevo = tk.PhotoImage(file="logo.png")
+
 
 barra_menu.add_cascade(menu=menu_archivo, label="ARCHIVO")
 menu_archivo.add_command(
